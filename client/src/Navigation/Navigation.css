@@ -1,0 +1,33 @@
+nav {
+  margin-bottom: 50px;
+}
+
+.navButton {
+  padding: 7px 15px 5px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  line-height: 20px;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in;
+}
+
+.navButton:focus {
+  border: none;
+  outline: none;
+}
+
+.navButton:hover {
+  cursor: pointer;
+}
+
+.navButton:first-of-type {
+  border-radius: 5px 0 0 5px;
+}
+
+.navButton:last-of-type {
+  border-radius: 0 5px 5px 0;
+}
+
+.isActive {
+  background-color: #2196F3;
+}

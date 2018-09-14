@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #E5E5E5;
+  display: flex;
+  min-height: 1000px;
+  justify-content: center;
+  align-items: center;
+}
